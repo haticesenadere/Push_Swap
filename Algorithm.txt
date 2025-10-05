@@ -1,0 +1,14 @@
+1- Dışarıdan argümanı al.
+2- Eğer argüman yoksa veya içi boşsa
+o zaman 0 döndür. Sessiz çıkış yap. 
+4- Geçerli karakter kontrolü mü değil mi yapıyporuz ? 
+    4.1- Her karkater sadece 0-9 arasında rakam olabilir. ***is_digit ile kontrol edebiliriz. 
+    4.2- Tek bir tane +/- olabilir. 
+    4.3- Boşluk
+- Yanlış karakter varsa error dönmeli. 
+5- INT_MIN/ INT_MAX kontrolü, eğer sayı int değeri aşıyorsa error dönmeli. ***Atoi ile kontrol edebiliriz. 
+6- Tekrarlana Sayı kontrolü, Aynı sayıyı iki kez girerse error dönmeli. Duplicate check.  Stack'e ekleme işleminden önce kontrol edebiliriz. 
+7- Eğer sadece 1 argüman varsa split fonksiyonu ile parçalara böl.
+    7.1- Eğer split sonucu boşsa sessiz çıkış yani return 0
+    7.2- Malloc kontrolü null ise error hatası
+8- En son bellek temizliği
