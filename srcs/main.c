@@ -12,7 +12,7 @@ int main(int ac, char **av)
     {
         return (0);
     }
-    valid_arguments(ac, av,  &stack_a);
+    analyze_input(ac, av,  &stack_a);
        
     return (0);
 }
