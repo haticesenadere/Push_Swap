@@ -1,0 +1,10 @@
+1- Makefile yapısını incele. Ve farklı dosya yapısı ile dosya tanımlaması nasıl gerçekleşiyor öğren.  ---
+2- Kütüphane yapılandırma dosyasını eksikleri varsa incele ve düzelt. ---
+3- Linked List üzerinde çalış ve konuyu daha iyi kavra.
+4- İndeksleme kısmını bitir. 
+5- Notion da ki notu da bitir. 
+
+
+Tamamlananlar
+3- Main ve Kontroller kısmını incele ve detaylı akış şemasını çıkar. +++
+4- Ve eksikleri düzelterek kontrol etmeye çalış +++
