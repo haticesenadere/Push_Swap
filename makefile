@@ -6,9 +6,12 @@ CFLAGS = -Wall -Wextra -Werror
 
 LIBFT = ./libft/libft.a
 
-SRCS = srcs/main.c srcs/get_argument_control.c
+SRC = src/main.c src/parsing.c src/indexing.c src/markup.c src/push_a_b.c \
+      src/cost_analysis.c src/alignment.c src/stack_utils.c src/operations.c \
+      src/error.c libft_utils.c
 
 OBJS = $(SRCS:.c=.o)
+INCLUDES = -I includes/
 
 all : $(NAME)
 
