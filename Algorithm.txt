@@ -1,3 +1,4 @@
+PARSİNG KATMANI ALGORİTMA TAKİBİ
 1- Dışarıdan argümanı al.
 2- Eğer argüman yoksa veya içi boşsa
 o zaman 0 döndür. Sessiz çıkış yap. 
@@ -12,3 +13,25 @@ o zaman 0 döndür. Sessiz çıkış yap.
     7.1- Eğer split sonucu boşsa sessiz çıkış yani return 0
     7.2- Malloc kontrolü null ise error hatası
 8- En son bellek temizliği
+
+STACK KATMANI ALGORİTMA TAKİBİ 
+1- Yeni bir stack başlat.
+    - stack başlangıçta NULL olucak. 
+    - Yani henüz içinde bir node-düğüm yoksa
+2- Yeni bir düğüm oluştur.
+    - Her sayı için bellekte malloc ile bir node alanı açar.
+    - value alanını sayıyı ata.
+3- Stack boş mu kontrol et.
+    - Eğer stack tamamen boşsa(*stack == NULL)
+        -Yeni oluşturulan node doğrudan stack'in ilk elemanı olur.
+4- Stack boş değilse sonuna git.
+    - Stack'in en sonunda ki node'u bul.
+5- Yeni node'u sona bağla.
+6- Tekrarlanan sayılar için kontrol yap. 
+7- Stack'i temizle. 
+
+
+INDEXLEME KATMANI ALGORİTMA TAKİBİ
+1-  Burada izlemem gereken yol nedir?  Direk gelen sayıyı büyükten küçüğe doğru sıralamak daha hızlı hareket etmemi sağlamaz mı ? 
+2- İndex bazlı ilerlenen projerlerde -markup ve cost analizleri- kullanıyoruz. 
+3- Ki böylelikle doğrudan sayılarla değil bu 
