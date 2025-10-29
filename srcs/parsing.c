@@ -35,13 +35,13 @@ void	safe_stack(t_list **stack_a, char **args)
 	i = 0;
 	while (args[i])
 	{
-		if (!num_format_ok(args[i]))
+		if (!num_format_ok(args[i])) // Sayı formatı kontrolü 
 			EXIT_ERROR(stack_a, args, "Invalid number format");
-		num = ft_atol(args[i]);
-		if (num > INT_MAX || num < INT_MIN)
+		num = ft_atol(args[i]); 
+		if (num > INT_MAX || num < INT_MIN) // INT_MIN VE MAX kontrolü
 			EXIT_ERROR(stack_a, args, "Number out of integer range");
-		add_node_to_stack(stack_a, (int)num);
+		add_node_to_stack(stack_a, (int)num); // stack'e ekleme 
 		i++;
 	}
-	check_duplicates(*stack_a);
+	check_duplicates(*stack_a);  // duplicate kontrolü - daha önce var mıydı yok muydu kontrolü 
 }
